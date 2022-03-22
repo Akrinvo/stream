@@ -1,0 +1,10 @@
+<<?xml version="1.0"?>
+<launch>
+
+  <node name="web_video_server" pkg="web_video_server" type ="web_video_server" >
+    <<rosparam name ="port"  value="11318"/>
+  </node>
+  
+    
+
+</launch>
